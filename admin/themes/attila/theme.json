@@ -1,0 +1,15 @@
+{
+  "files": {
+    "author": "author.njk",
+    "default": "default.njk",
+    "index": "index.njk",
+    "loop": "partials/loop.njk",
+    "navigation": "partials/navigation.njk",
+    "navigation-meta": "partials/navigation-meta.njk",
+    "page": "page.njk",
+    "pagination": "partials/pagination.njk",
+    "post": "post.njk",
+    "tag": "tag.njk"
+  },
+  "version": "0.1.0"
+}
