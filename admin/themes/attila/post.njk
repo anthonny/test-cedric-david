@@ -16,8 +16,7 @@
                 {% endif %}
             </span>
             <h1 class="post-title">
-                {% raw %}{{post.title}}
-                {% endraw %}
+                {{post.title | safe}}
             </h1>
             <div class="post-meta">
                 {% if post.authors %}
